@@ -1,0 +1,129 @@
+/* Add here all your CSS customizations */
+
+/* Information Entry from start */
+.as_main_body > form > .row +	.row{border-top:1px solid #d2d2d2;}
+.as_main_body > form > .row{padding:5px 0;}
+.as_radio label{padding:0 5px;}
+/* Information Entry from End */
+.label-default{background: #fff;border:1px solid #d2d2d2;}
+#saim{display: none;}
+.as_main_body_view h4{font-size:23px;padding:5px 0 15px;color:#191C21}
+.as_main_body_view > .row{padding:5px 0 5px;}
+.as_main_body_view p{margin-bottom:0;}
+.as_main_body_view ul{padding:0 0 0 10px;}
+.as_main_body_view ul li{padding:0 0 0 15px;list-style: none;position: relative;font-size: 11px;}
+.as_main_body_view ul li:before{
+ border-left: 5px solid #777;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    left: 2px;
+    top: 6px;
+    width: 0;
+}
+
+
+.clearoption > div:nth-child(odd){
+	clear: both;
+}
+.subName{
+    /*text-align: center;*/
+    margin-bottom: 20px;
+}
+.subName span{
+	display: inline-block;
+	text-decoration: underline;
+}
+
+
+
+.showQus li{
+    position:relative;
+    padding-left:15px;
+    margin-bottom:7px;
+    list-style:none;
+    
+}
+.showQus li.green{
+    
+}
+
+.showQus li:before{
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size:10px;
+    color:red;
+}
+.showQus li.green:before{
+    content: "\f00c";
+    color:lightgreen;
+}
+
+
+
+.middleTitle{
+    vertical-align: middle!important;
+}
+.loginAdmin{
+    height: 100%;    
+}
+.loginAdmin body{
+    background-color: #ffffff;
+    /*background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23000000' fill-opacity='0.04'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");*/
+    /*+++++ BG - 1 ++++++++++++*/
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(0,144,255,0.65) 0%, rgba(0,0,0,0) 100%); 
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,144,255,0.65) 0%,rgba(0,0,0,0) 100%); 
+    background: radial-gradient(ellipse at center,  rgba(0,144,255,0.65) 0%,rgba(0,0,0,0) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a60090ff', endColorstr='#00000000',GradientType=1 );
+    /*+++++ BG - 2 ++++++++++++*/
+    /*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(28,142,210,1) 0%, rgba(113,192,244,1) 47.3%, rgba(139,238,230,1) 88.4% );*/
+    /*+++++ BG - 3 ++++++++++++*/
+    /*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(63,103,217,1) 0%, rgba(67,209,222,1) 100.3% );*/
+    /*+++++ BG - 4 ++++++++++++*/
+    /*background-image: radial-gradient( circle farthest-corner at 10.6% 23.3%,  rgba(186,162,252,1) 0%, rgba(176,248,242,1) 72.4% );*/
+    /*+++++ BG - 5 ++++++++++++*/
+    /*background-image: linear-gradient( 181.2deg,  rgba(181,239,249,1) 10.5%, rgba(254,254,254,1) 86.8% );*/
+    /*+++++ BG - 6 ++++++++++++*/
+    /*background-image: linear-gradient( 90.8deg,  rgba(151,255,240,1) 0.5%, rgba(212,240,249,1) 32.2%, rgba(112,191,251,1) 89.8% );*/
+    /*+++++ BG - 7 ++++++++++++*/
+}
+.needCls > div:nth-child(2n+1){
+    clear: both;
+}
+
+
+
+
+
+.checkbox label{position: relative;font-size:18px;line-height:21px;}
+.checkbox .click{color: #f00;}
+.checkbox .click:before{color: #f00;content: "\f00d";font-family: FontAwesome;}
+.checkbox .click.green{ color: #0f0;}
+.checkbox .click.green:before{color: #0f0;content: "\f00c";font-family: FontAwesome;}
+
+
+.checkbox .green{color: #00f;}
+.checkbox .green:before{color: #00f;content: "\f119";font-family: FontAwesome;}
+
+
+.container{
+    max-width:100%;
+}
+
+.pageSetup input[type="text"]{
+    max-width:50px;
+}
+
+.widget-summary .summary-icon{
+    line-height:60px;
+    height:60px;
+    width:60px;
+}
